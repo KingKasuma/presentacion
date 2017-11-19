@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -23,9 +23,209 @@
 	</head>
 	<body>
 		<div class="reveal">
+			<div id="marca-agua"><img style="border:none;box-shadow:none; width:150px;height:80px; position: absolute; top: 80%; right: 5%;" src="img/emi.jpg" alt=""></div>
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section data-state="primera">
+
+					<h2>Sistema web responsive de reserva de consultas y gestion de atencion a pacientes. Caso de estudio: clinica dental maldonado</h2><br>
+					<h4>Gutierrez Maldonado Gerald Michael</h4>
+					<h4>Tutora: Lic. Lizbeth Jaramillo</h4>
+					<h4>Ingenieria de sistemas</h4>
+
+				</section>
+
+				<section>
+					<section>
+							<h1>Generalidades</h1>
+
+					</section>
+
+					<section>
+
+						<h2>Antescedentes</h2>
+
+						<p><small>Clinica dental Maldonado</small></p>
+						<img src="img/odonto.jpg" width="180" height="150" class="fragment">
+						<p class="fragment"><small>Odontologos</small></p>
+						<img src="img/dental.jpg" width="180" height="150" class="fragment">
+					</section>
+					<section>
+						<img src="img/dental1.jpg" width="150" height="150" class="fragment fade-up">
+						<p class="fragment fade-up">3 Salas de atencion</p>
+						<img src="img/dental2.jpg" width="150" height="150" class="fragment fade-up">
+						<p class="fragment fade-up">1 laboratorio protesis dental <span class="fragment highlight-green">9:00 - 12:00/14:30 - 20:00</span></p>
+					</section>
+
+					<section>
+						<div class="">
+							<img src="img/dental3.jpg" width="250" height="250" class="fragment">
+							<img src="img/flecha1.png" width="250" height="150" class="fragment">
+							<img src="img/dental4.jpg" width="250" height="250" class="fragment">
+						</div>
+						<div class="">
+							<img src="img/dental5.jpg" width="250" height="250" class="fragment">
+							<img src="img/flecha1.png" width="250" height="150" class="fragment">
+							<img src="img/dental6.jpg" width="250" height="250" class="fragment">
+						</div>
+					</section>
+
+					<section>
+						<img src="img/dental6.jpg" width="200" height="200" class="fragment">
+						<p class="fragment"><small class="fragment highlight-green">Conlleva</small></p>
+						<img src="img/dental7.jpg" width="200" height="200" class="fragment">
+						<p class="fragment"><small class="fragment highlight-red">Por Fechas</small></p>
+					</section>
+
+					<section>
+						<img src="img/dental8.jpg" width="300" height="300" class="fragment">
+						<img src="img/dental9.jpg" width="300" height="300" class="fragment">
+						<p class="fragment"> Pacientes atendidos por dia de 14 a 17</p>
+					</section>
+
+					<section>
+						<img src="img/odonto.jpg" width="300" height="300" class="fragment">
+						<p class="fragment"> Año 2014</p>
+					</section>
+
+					<section>
+						<h2 class="fragment fade-up">Tratamientos</h2>
+						<p class="fragment">Atencion integral adulto - niño</p>
+						<ul class="fragment fade-up">
+							<li>Para adulto: operatoria, periodoncia, endodoncia, prótesis fija, prótesis removible y cirugía (extracción simple o quirúrgicas)</li>
+							<li>Para niño: operatoria, pulpectomia y pulpotomia</li>
+						</ul>
+						<p class="fragment">Por especialidad</p>
+						<ul class="fragment fade-up">
+							<li>Ortodoncia fija y removible, cirugia avanzada o estomatologica e implantologia avanzada</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2 class="fragment">Protesis Dental</h2>
+						<ul class="fragment">
+							<li>Trabajos de puentes, coronas, placas parciales y totales y protesis flexible</li>
+						</ul>
+					</section>
+
+					<section>
+						<p class="fragment">Año 2016</p>
+						<img src="img/odonto.jpg" width="300" height="300" class="fragment">
+						<p class="fragment">Emergencia</p>
+					</section>
+
+					<section>
+						<h2>Objetivo General</h2>
+						<p class="fragment">Desarrollar un sistema web responsive de reservas de consultas y gestión de atención a pacientes para coadyuvar en la organización de atención de pacientes.</p>
+					</section>
+
+					<section>
+						<h3>Objetivos especificos</h3>
+						<ul>
+							<li class="fragment">Diseñar el modelado de negocio actual en base al análisis de los procesos actuales.</li>
+							<li class="fragment">Diseñar el modelado de negocio alternativo.</li>
+							<li class="fragment">Desarrollar el módulo de gestión de usuarios.</li>
+							<li class="fragment">Desarrollar el módulo de reservas de consultas.</li>
+							<li class="fragment">Desarrollar un módulo de Administración de historial clínico.</li>
+							<li class="fragment">Desarrollar un módulo Administración de trabajos.</li>
+							<li class="fragment">Realizar pruebas al sistema final.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Diseñar el modelado de negocio actual en base al análisis de los procesos actuales</h3>
+						<ul>
+							<li class="fragment">Recopilar informacion relacionada con el seguimiento de atencion a pacientes.</li>
+							<li class="fragment">Elaborar entrevistas con el personal encargado de los registros de los procesos de reserva de consultas y atencion a pacientes.</li>
+							<li class="fragment">Elaborar el diagrama de flujo que represente el modelado de negocio actual del control de material de stock.</li>
+							<li class="fragment">Realizar la verificacion del modelado de negocio con los usuarios involucrados.</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Diseñar el modelado de negocio alternativo.</h3>
+						<ul>
+							<li class="fragment">Identificar las falencias de los procedimientos manuales que se realizan en la clinica dental</li>
+							<li class="fragment">Elaborar un digrama de flujo el cual refleje el modelado de negocio alternativo de los procesos de registro de historiales clinicos</li>
+							<li class="fragment">Seleccionar la metodologia de desarrollo de Software</li>
+							<li class="fragment">Planificar actividades de desarrollo en base a metodologia</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Desarrollar el módulo de gestión de usuarios.</h3>
+						<ul>
+							<li class="fragment">Seleccionar el lenguaje de programacion y gestor de base de datos</li>
+							<li class="fragment">Realizar analisis de requerimientos para el modulo de usuarios</li>
+							<li class="fragment">Identificar actores y objetivos involucrados en el sistema</li>
+							<li class="fragment">Elaborar los diagramas de casos de uso, de colaboracion y de clases</li>
+							<li class="fragment">Diseñar la base de datos para el modulo de gestion de usuarios</li>
+							<li class="fragment">Codificar modulo de gestion de usuarios</li>
+							<li class="fragment">Realizar pruebas funcionales</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Desarrollar el módulo de reservas de consultas.</h3>
+						<ul>
+
+							<li class="fragment">Analizar requerimientos para el modulo de reservas</li>
+							<li class="fragment">Identificar actores involucrados</li>
+							<li class="fragment">Elaborar los diagramas de casos de uso, de colaboracion y de clases</li>
+							<li class="fragment">Aumentar tablas del modulo de reserva de consultas</li>
+							<li class="fragment">Codificar reservas de consultas para una mejor atencion de pacientes</li>
+							<li class="fragment">Generar alertas para notificar al doctor tratamiento por especialidad</li>
+							<li class="fragment">Realizar pruebas funcionales</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Desarrollar un módulo de Administración de historial clínico.</h3>
+						<ul>
+							<li class="fragment">Realizar analisis de requerimientos para el modulo de trabajos</li>
+							<li class="fragment">Identificar actores y objetviso involucrados</li>
+							<li class="fragment">Elaborar los diagramas de casos de uso, de colaboracion y de clases</li>
+							<li class="fragment">Aumentar tablas del modulo de administracion de historial clinico</li>
+							<li class="fragment">Implementar el modulo de administracion de historial clinico</li>
+							<li class="fragment">Realizar pruebas funcionales</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Desarrollar un módulo Administración de trabajos.</h3>
+						<ul>
+							<li class="fragment">Realizar analisis de requerimientos para el modulo de trabajos</li>
+							<li class="fragment">Identificar tipos de trabajos que se realizan en la clinica dental</li>
+							<li class="fragment">Elaborar los diagramas de casos de uso, de colaboracion y de clases</li>
+							<li class="fragment">Aumentar tablas del modulo de administracion de trabajos a la base de datos</li>
+							<li class="fragment">Codificar el registro de tratamientos y de protsis dental</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Realizar pruebas al sistema final.</h3>
+						<ul>
+							<li class="fragment">Elaborar escenarios de pruebas</li>
+							<li class="fragment">Aplicar las pruebas seleccionadas</li>
+							<li class="fragment">Documentar los resultados obtenidos</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Hipotesis</h2>
+						<p class="fragment"><span class="fragment highlight-blue">El desarrollo de un sistema web responsive de reservas de consultas y gestion de atencion a pacientes</span> permitira reducir <span class="fragment highlight-green">el tiempo en la busqueda de historiales clinicos y libros de cuentas, reducir el riesgo de perdida de informacion y reducir el riesgo de no atencion de pacientes.</span></p>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+							<h1>MArco teorico</h1>
+					</section>
+					<section>
+						<h2>Tecnicas de recopicalion de informacion</h2>
+					</section>
+				</section>
 			</div>
 		</div>
 
